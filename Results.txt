@@ -1,0 +1,23 @@
+Results
+
+Number of Threads = 4 (Constant)
+Threshold = 0.01 (Constant)
+
+Matrix Size | Iterations    | Duration(in Seconds)
+10          | 6             | 0
+20          | 7             | 0
+30          | 4             | 0
+40          | 3             | 0
+50          | 6             | 0
+100         | 6             | 1
+200         | 10            | 3
+300         | 7             | 6
+400         | 8             | 9
+500         | 4             | 6
+1000        | 8             | 54
+2000        | 17            | 466
+3000        | 5             | 306
+4000        | 4             | 434
+5000        | 6             | 1059
+10000       | 4             | 2730
+20000       | 8             | 22426
