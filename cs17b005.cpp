@@ -12,6 +12,7 @@ int main(int argc, char* argv[])
 {
     int n = atoi(argv[1]);
     float th = atof(argv[2]);
+    int num_threads = atoi(argv[3]);
     int n1 = n+2;
     
     float* mat = (float*) malloc((n1)*(n1)*sizeof(float));
@@ -46,7 +47,7 @@ int main(int argc, char* argv[])
         std::cout<<std::endl;
     }*/
     bool check = true;
-    int num_threads = 4, iter = 0;
+    int iter = 0;
 
     auto start = high_resolution_clock::now();
 
